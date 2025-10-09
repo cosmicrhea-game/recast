@@ -162,7 +162,7 @@ public:
 /// Provides the ability to perform pathfinding related queries against
 /// a navigation mesh.
 /// @ingroup detour
-class dtNavMeshQuery
+class __attribute__((swift_attr("import_as_ref, retain: dtNavMeshQueryRetain, release: dtNavMeshQueryRelease"))) dtNavMeshQuery
 {
 public:
 	dtNavMeshQuery();

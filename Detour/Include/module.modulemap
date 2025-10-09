@@ -1,0 +1,12 @@
+module CxxDetour {
+	requires cplusplus
+	header "CxxDetourShim.h"
+
+	export *
+}
+
+module CDetour {
+	requires cplusplus
+	header "CDetour.h"
+	export *
+}
